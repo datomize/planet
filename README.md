@@ -97,7 +97,6 @@ quite a few dependencies:
  - docker registry
  - [flannel]
  - [etcd]
- - [serf]
 
 Subsequent builds are much faster because intermediate results are cached (in `build/assets` directory).
 To clear and rebuild from scratch, run the `make clean`.
@@ -140,5 +139,4 @@ KUBE_VER := v1.1.4
 [gravity]: <https://github.com/gravitational/gravity>
 [flannel]: <https://github.com/coreos/flannel>
 [etcd]: <https://github.com/coreos/etcd>
-[serf]: <https://github.com/hashicorp/serf>
 [virsh provisioner]: <https://github.com/gravitational/gravity/tree/master/assets/virsh-centos>
