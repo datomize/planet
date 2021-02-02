@@ -277,7 +277,7 @@ func (c *timeDriftChecker) removeExpiredClients(members []*pb.MemberStatus) {
 }
 
 // shouldCheckNode returns true if the check should be run against specified
-// serf member.
+// member.
 func (c *timeDriftChecker) shouldCheckNode(node *pb.MemberStatus) bool {
 	return node.Status == pb.MemberStatus_Alive && c.NodeName != node.Name
 }
