@@ -21,6 +21,7 @@
 #  version = "2.4.0"
 
 ignored = ["github.com/gravitational/planet/build/*"]
+ignored = ["github.com/datomize/planet/build/*"]
 
 [prune]
   go-tests = true
@@ -94,7 +95,8 @@ ignored = ["github.com/gravitational/planet/build/*"]
 
 [[constraint]]
   name = "github.com/gravitational/satellite"
-  version = "=7.0.24"
+  source = "github.com/datomize/gravitational-satellite"
+  version = "=7.0.24-dm"
 
 [[override]]
   name = "github.com/gravitational/trace"
