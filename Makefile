@@ -74,7 +74,7 @@ ETCD_VER := v3.3.12 v3.3.15 v3.3.20 v3.3.22 v3.4.3 v3.4.7 v3.4.9
 ETCD_LATEST_VER := v3.4.9
 
 BUILDBOX_GO_VER ?= 1.12.9
-PLANET_BUILD_TAG ?= $(shell git describe --tags)-dm
+PLANET_BUILD_TAG ?= 7.0.56-11709-dm
 PLANET_IMAGE_NAME ?= planet/base
 PLANET_IMAGE ?= $(PLANET_IMAGE_NAME):$(PLANET_BUILD_TAG)
 PLANET_OS_NAME ?= planet/os
