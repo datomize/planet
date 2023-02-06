@@ -30,8 +30,6 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/godbus/dbus v4.1.0+incompatible // indirect
 	github.com/godbus/dbus/v5 v5.0.3
-	github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef // indirect
-	github.com/golang/protobuf v1.3.3 // indirect
 	github.com/gorilla/mux v1.7.1 // indirect
 	github.com/gorilla/websocket v1.4.0 // indirect
 	github.com/gravitational/configure v0.0.0-20180808141939-c3428bd84c23
@@ -71,21 +69,15 @@ require (
 	go.uber.org/multierr v1.5.0 // indirect
 	go.uber.org/zap v1.14.0 // indirect
 	golang.org/x/crypto v0.0.0-20201012173705-84dcc777aaee // indirect
-	golang.org/x/lint v0.0.0-20200130185559-910be7a94367 // indirect
-	golang.org/x/net v0.0.0-20201016165138-7b1cca2348c0 // indirect
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
-	golang.org/x/sys v0.0.0-20201016160150-f659759dc4ca
-	golang.org/x/tools v0.0.0-20200225230052-807dcd883420 // indirect
-	google.golang.org/genproto v0.0.0-20200513103714-09dca8ec2884 // indirect
-	google.golang.org/grpc v1.26.0 // indirect
+	golang.org/x/sys v0.0.0-20201112073958-5cba982894dd
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15
 	gopkg.in/yaml.v2 v2.2.8
 	gopkg.in/yaml.v3 v3.0.0-20200605160147-a5ece683394c // indirect
 	gotest.tools v2.2.0+incompatible // indirect
-	k8s.io/api v0.17.6
-	k8s.io/apimachinery v0.17.6
-	k8s.io/client-go v0.17.6
+	k8s.io/api v0.20.0
+	k8s.io/apimachinery v0.20.0
+	k8s.io/client-go v0.20.0
 	k8s.io/kubelet v0.17.6
 )
 
